@@ -1,0 +1,27 @@
+/*================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@import "../fonts/iranyekan/iranyekan.css";
+*{
+    font-family: "iranyekan" !important;
+    font-weight:light;
+}
+.folder_icon_active , .folder_icon {
+    color: #fff !important;
+    display: none;
+}
+table.table {
+    & td:first-child, td:last-child {
+        width: 0px;
+    }
+}.main-menu .navbar-header .navbar-brand .brand-logo img {
+    max-width: 65px !important;
+    height: 50px;
+}
+.vpd-input-group label {
+    margin-bottom: 0px !important;
+}
